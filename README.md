@@ -6,7 +6,7 @@ Azure DevOps utilities
     
     az login
 
-    $config = New-DevOpsConfig -org "https://dev.azure.com/itron" -project "SoftwareProducts" -team "GDS" -areaPath "SoftwareProducts\Outcomes\Operations Management\Gas Distribution Safety"
+    $config = New-DevOpsConfig -org "https://dev.azure.com/your-company" -project "SoftwareProject" -team "YourTeam" -areaPath "SoftwareProject\SomeProject"
  
     $sprints=Get-SprintSet -config $config
 
