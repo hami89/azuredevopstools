@@ -412,5 +412,3 @@ Export-ModuleMember -Function Install-Az
 Export-ModuleMember -Function Check-*
 Export-ModuleMember -Function Get-*
 Export-ModuleMember -Function New-*
-Export-ModuleMember -Class DevOpsConfig
-Export-ModuleMember -Class DevOpsSprintSet
